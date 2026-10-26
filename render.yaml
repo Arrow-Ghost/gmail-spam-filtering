@@ -1,0 +1,9 @@
+# Render Blueprint: the R spam-filter API (backend)
+services:
+  - type: web
+    name: spam-filter-r-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./r/api/Dockerfile
+    dockerContext: ./r/api
+    healthCheckPath: /health
