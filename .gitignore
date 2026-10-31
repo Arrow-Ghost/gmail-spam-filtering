@@ -2,3 +2,7 @@ r/api/api.log
 r/last-run.log
 .Rhistory
 .RData
+ppt/node_modules/
+ppt/render/
+ppt/*.pdf
+ppt/package-lock.json
